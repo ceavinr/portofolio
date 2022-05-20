@@ -18,7 +18,7 @@ const data = [
     image: IMG2,
     title: "My Portofolio Website",
     tech: "React",
-    github: "https://github.com/ceavinr/movie-hub",
+    github: "https://github.com/ceavinr/portofolio",
     demo: "https://ceavinr.netlify.app/",
   },
 ];
