@@ -21,6 +21,10 @@
     margin: 1.2rem 0 0;
 }
 
+.portfolio__item h4 {
+    color: var(--color-primary-variant);
+}
+
 .portfolio__item h5 {
     margin: 0 0 2rem;
     color: var(--color-primary-variant);
