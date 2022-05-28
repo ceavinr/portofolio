@@ -9,7 +9,7 @@ import { IoLogoTwitter } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <footer id="portfolio">
+    <footer id="contact">
       <div className="footer__logo">Ceavin Rufus</div>
       <div className="footer__copyright">
         <small>&copy; Ceavin Rufus. All rights reserved</small>

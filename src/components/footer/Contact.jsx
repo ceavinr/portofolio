@@ -29,7 +29,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div id="contact">
+    <>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
@@ -77,7 +77,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
-    </div>
+    </>
   );
 };
 
