@@ -43,7 +43,7 @@ const Nav = () => {
       <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
-        className={activeNav === "#portfolio" ? "active" : ""}
+        className={activeNav === "#portfolio" ? "" : ""}
       >
         <BsBriefcase />
       </a>
