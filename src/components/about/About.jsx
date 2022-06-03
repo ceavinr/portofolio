@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about.jpeg";
 import { FaAward } from "react-icons/fa";
+import { RiServiceLine } from "react-icons/ri";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
@@ -20,9 +21,9 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
+              <RiServiceLine className="about__icon" />
               <h5>Services</h5>
-              <small>Front-end development, UI/UX design, Editing</small>
+              <small>Front-end development, UI/UX design</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -32,7 +33,7 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>3 completed projects</small>
+              <small>3+ completed projects</small>
             </article>
           </div>
           <p>
