@@ -26,7 +26,7 @@ const Footer = () => {
         <a href="https://instagram.com/ceavinrufus/" target="blank">
           <RiInstagramFill />
         </a>
-        <a href="https://twitter.com/16521xxx/" target="blank">
+        <a href="https://twitter.com/ceavinrufus/" target="blank">
           <IoLogoTwitter />
         </a>
         <a
