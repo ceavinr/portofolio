@@ -11,7 +11,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState("");
 
   return (
-    <nav>
+    <nav className="mini-nav">
       <a
         href="#"
         onClick={() => setActiveNav("#")}
