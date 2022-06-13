@@ -40,6 +40,32 @@
     margin-bottom: 1rem;
 }
 
+.see__more {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.see__more > a {
+    font-size: 20px;
+    transition: var(--transition);
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.double-chevron__icon {
+    display: none;
+}
+
+.see__more > a:hover .chevron__icon{
+    display: none;
+}
+
+.see__more > a:hover .double-chevron__icon{
+    display: flex;
+}
+
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============= */ 
 @media screen and (max-width: 1024px) {
     .portfolio__container {
