@@ -5,6 +5,7 @@ import IMG2 from "../../assets/portfolio/portfolio2.png";
 import IMG3 from "../../assets/portfolio/portfolio3.png";
 import IMG4 from "../../assets/portfolio/portfolio4.png";
 import { GiPlayButton } from "react-icons/gi";
+import { FaGithub } from "react-icons/fa";
 import { BsChevronCompactDown, BsChevronDoubleDown } from "react-icons/bs";
 
 const data = [
@@ -20,7 +21,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "My Portofolio Website",
+    title: "My Portfolio Website",
     tech: "React",
     role: "Frontend Developer",
     github: "https://github.com/ceavinr/portofolio",
@@ -66,9 +67,10 @@ const Portfolio = ({ slice = data.length }) => {
                   <h4>{role}</h4>
                   <h5>{tech}</h5>
                   <div className="portfolio__item-cta">
-                    {/* <a href={github} className="btn" target="_blank">
-                  GitHub
-                </a> */}
+                    <a href={github} className="btn" target="_blank">
+                      <FaGithub className="portofolio__item-icon" />
+                      {"\u00a0"} GitHub
+                    </a>
                     <a href={demo} className="btn btn-primary" target="_blank">
                       <GiPlayButton className="portofolio__item-icon" />
                       {"\u00a0"} Live Demo
