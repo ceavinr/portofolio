@@ -6,17 +6,25 @@ import { BsSpotify } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoTwitter } from "react-icons/io";
+import { ReactComponent as Logo } from "../../assets/logo.svg";
 
 const Footer = () => {
   return (
     <footer id="contact">
-      <div className="footer__logo">Ceavin Rufus</div>
+      <div className="logo-container">
+        <a href="/" className="footer__logo">
+          <Logo />
+        </a>
+        <a href="/" className="footer__name">
+          Ceavin Rufus
+        </a>
+      </div>
       <div className="footer__copyright">
         <small>&copy; Ceavin Rufus. All rights reserved</small>
       </div>
       <Contact />
+      <h3 className="find__me">Find me on</h3>
       <div className="footer__socials">
-        <h3>Find me on</h3>
         <a href="https://www.linkedin.com/in/ceavinrufus/" target="blank">
           <BsLinkedin />
         </a>

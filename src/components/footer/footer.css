@@ -6,16 +6,26 @@ footer{
     margin-top: 7rem;
 }
 
+footer .logo-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
 footer a {
     color: var(--color-primary);
 }
 
-.footer__logo {
+.footer__name {
     font-size: 2rem;
     font-weight: 500;
-    display: inline-block;
     color: var(--color-primary);
     caret-color: transparent;
+}
+
+.footer__logo {
+    cursor: pointer;
+    margin-right: 10px;
+    width: 40px;
 }
 
 .permalinks {
@@ -25,12 +35,14 @@ footer a {
     gap: 2rem;
     margin: 0 auto 3rem;
 }
-
+.find__me {
+    margin-top: 4rem;
+}
 .footer__socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
     margin-bottom: 6rem;
 }
 

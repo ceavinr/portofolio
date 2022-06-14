@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
+import { ReactComponent as Logo } from "../../assets/logo.svg";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -32,10 +33,14 @@ function Navbar() {
     <>
       <nav className={navbar ? "navbar active" : "navbar"}>
         <div className="navbar-container">
-          <a href="/" className="navbar-name">
-            <h3>Ceavin Rufus</h3>
-          </a>
-
+          <div className="logo-container">
+            <a href="/" className="navbar-logo">
+              <Logo />
+            </a>
+            <a href="/" className="navbar-name">
+              <h3>Ceavin Rufus</h3>
+            </a>
+          </div>
           <div className="menu-icon" onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}
           </div>
