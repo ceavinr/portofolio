@@ -31,6 +31,7 @@
 }
   
 .navbar-logo {
+    display: flex;
     cursor: pointer;
     margin-right: 10px;
     width: 30px;
@@ -94,6 +95,7 @@
       width: 100%;
       position: absolute;
       top: 100%;
+      grid-gap: 0;
       left: 0;
       /*left: 100%; */
       opacity: 1;
@@ -105,6 +107,14 @@
       opacity: 1;
       z-index: 1;
     }
+
+    .nav-menu > li {
+      display: none;
+    }
+
+    .nav-menu.active > li {
+      display: flex;
+    }
   
     .nav-links {
       text-align: center;
@@ -114,8 +124,9 @@
       display: flex;
       gap: 5px;
     }
-  
+    
     .nav-links:hover {
+      border-bottom: 0px;
       background-color: #fff;
       color: #242424;
       border-radius: 0;
