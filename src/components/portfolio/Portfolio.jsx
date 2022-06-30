@@ -4,6 +4,7 @@ import IMG1 from "../../assets/portfolio/portfolio1.png";
 import IMG2 from "../../assets/portfolio/portfolio2.png";
 import IMG3 from "../../assets/portfolio/portfolio3.png";
 import IMG4 from "../../assets/portfolio/portfolio4.png";
+import IMG5 from "../../assets/portfolio/portfolio5.png";
 import { GiPlayButton } from "react-icons/gi";
 import { FaGithub } from "react-icons/fa";
 import { BsChevronCompactDown, BsChevronDoubleDown } from "react-icons/bs";
@@ -30,6 +31,15 @@ const data = [
   {
     id: 3,
     image: IMG3,
+    title: "Colettes",
+    tech: "React, Tailwind CSS",
+    role: "Frontend Developer",
+    github: "https://github.com/ceavinr/colettes",
+    demo: "https://colettes.netlify.app/",
+  },
+  {
+    id: 4,
+    image: IMG4,
     title: "Montirloka",
     tech: "React, Firebase",
     role: "Full Stack Developer",
@@ -37,8 +47,8 @@ const data = [
     demo: "https://montirloka-457b6.web.app/",
   },
   {
-    id: 4,
-    image: IMG4,
+    id: 5,
+    image: IMG5,
     title: "Simple To-do-list",
     tech: "Vanilla Javascript",
     role: "Frontend Developer",
@@ -67,10 +77,10 @@ const Portfolio = ({ slice = data.length }) => {
                   <h4>{role}</h4>
                   <h5>{tech}</h5>
                   <div className="portfolio__item-cta">
-                    <a href={github} className="btn" target="_blank">
+                    {/* <a href={github} className="btn" target="_blank">
                       <FaGithub className="portofolio__item-icon" />
                       {"\u00a0"} GitHub
-                    </a>
+                    </a> */}
                     <a href={demo} className="btn btn-primary" target="_blank">
                       <GiPlayButton className="portofolio__item-icon" />
                       {"\u00a0"} Live Demo
