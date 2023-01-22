@@ -2,7 +2,7 @@ import IMG1 from "../../assets/portfolio/portfolio1.png";
 import IMG2 from "../../assets/portfolio/portfolio2.png";
 import IMG3 from "../../assets/portfolio/portfolio3.png";
 import IMG4 from "../../assets/portfolio/portfolio4.png";
-// import IMG5 from "../../assets/portfolio/portfolio5.png";
+import IMG5 from "../../assets/portfolio/portfolio5.png";
 import IMG6 from "../../assets/portfolio/portfolio6.png";
 
 export const data = [
@@ -41,6 +41,15 @@ export const data = [
     role: "Frontend Developer",
     github: "https://github.com/ceavinr/colettes",
     demo: "https://colettes.netlify.app/",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "PokéStop",
+    tech: "Next.js",
+    role: "Frontend Developer",
+    github: "https://github.com/ceavinr/pokestop",
+    demo: "https://pokestop.vercel.app/",
   },
   {
     id: 6,
