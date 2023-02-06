@@ -4,6 +4,7 @@ import IMG3 from "../../assets/portfolio/portfolio3.png";
 import IMG4 from "../../assets/portfolio/portfolio4.png";
 import IMG5 from "../../assets/portfolio/portfolio5.png";
 import IMG6 from "../../assets/portfolio/portfolio6.png";
+import IMG7 from "../../assets/portfolio/portfolio7.png";
 
 export const data = [
   {
@@ -18,11 +19,11 @@ export const data = [
   {
     id: 2,
     image: IMG2,
-    title: "My Portfolio Website",
-    tech: "React",
-    role: "Frontend Developer",
-    github: "https://github.com/ceavinr/portofolio",
-    demo: "https://ceavinr.netlify.app/",
+    title: "NMGBC 2023",
+    tech: "React, MongoDB, Express.js",
+    role: "Full Stack Developer",
+    github: "https://github.com/ceavinr/nmgbc_ui",
+    demo: "https://nmgbc2023.vercel.app/",
   },
   {
     id: 3,
@@ -59,5 +60,14 @@ export const data = [
     role: "Frontend Developer",
     github: "https://github.com/ceavinr/to-do-list",
     demo: "https://ceavinr.github.io/to-do-list/",
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: "My Portfolio Website",
+    tech: "React",
+    role: "Frontend Developer",
+    github: "https://github.com/ceavinr/portofolio",
+    demo: "https://ceavinr.netlify.app/",
   },
 ];

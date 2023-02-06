@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <RiServiceLine className="about__icon" />
               <h5>Services</h5>
-              <small>Front-end development, UI/UX design</small>
+              <small>Full-stack development, UI/UX design</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -32,7 +32,7 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>3+ completed projects</small>
+              <small>6+ completed projects</small>
             </article>
           </div>
           <p>
