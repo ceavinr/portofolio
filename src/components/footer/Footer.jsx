@@ -28,7 +28,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/ceavinrufus/" target="blank">
           <BsLinkedin />
         </a>
-        <a href="https://github.com/ceavinr/" target="blank">
+        <a href="https://github.com/ceavinrufus/" target="blank">
           <FaGithub />
         </a>
         <a href="https://instagram.com/ceavinrufus/" target="blank">
@@ -37,12 +37,12 @@ const Footer = () => {
         <a href="https://twitter.com/ceavinrufus/" target="blank">
           <IoLogoTwitter />
         </a>
-        <a
+        {/* <a
           href="https://open.spotify.com/user/lt4ao0q432yil746hh8jq8rjj?si=7edf5741a5f64e7e"
           target="blank"
         >
           <BsSpotify />
-        </a>
+        </a> */}
       </div>
     </footer>
   );

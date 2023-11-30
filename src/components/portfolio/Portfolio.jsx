@@ -26,14 +26,22 @@ const Portfolio = ({ slice = data.length }) => {
                   <h4>{role}</h4>
                   <h5>{tech}</h5>
                   <div className="portfolio__item-cta">
-                    {/* <a href={github} className="btn" target="_blank">
-                      <FaGithub className="portofolio__item-icon" />
-                      {"\u00a0"} GitHub
-                    </a> */}
-                    <a href={demo} className="btn btn-primary" target="_blank">
-                      <GiPlayButton className="portofolio__item-icon" />
-                      {"\u00a0"} Live Demo
-                    </a>
+                    {github && (
+                      <a href={github} className="btn" target="_blank">
+                        <FaGithub className="portofolio__item-icon" />
+                        {"\u00a0"} GitHub
+                      </a>
+                    )}
+                    {demo && (
+                      <a
+                        href={demo}
+                        className="btn btn-primary"
+                        target="_blank"
+                      >
+                        <GiPlayButton className="portofolio__item-icon" />
+                        {"\u00a0"} Live Demo
+                      </a>
+                    )}
                   </div>
                 </article>
               );

@@ -1,73 +1,93 @@
-import IMG1 from "../../assets/portfolio/portfolio1.png";
-import IMG2 from "../../assets/portfolio/portfolio2.png";
-import IMG3 from "../../assets/portfolio/portfolio3.png";
-import IMG4 from "../../assets/portfolio/portfolio4.png";
-import IMG5 from "../../assets/portfolio/portfolio5.png";
-import IMG6 from "../../assets/portfolio/portfolio6.png";
-import IMG7 from "../../assets/portfolio/portfolio7.png";
+import moviehub from "../../assets/portfolio/moviehub.png";
+import nmgbc from "../../assets/portfolio/nmgbc.png";
+import sambat from "../../assets/portfolio/sambat.png";
+import colletes from "../../assets/portfolio/colletes.png";
+import pokestop from "../../assets/portfolio/pokestop.png";
+import todo from "../../assets/portfolio/todo.png";
+import portfolio from "../../assets/portfolio/portfolio.png";
+import studymate from "../../assets/portfolio/studymate.png";
+import tecfest2023 from "../../assets/portfolio/tecfest2023.png";
+import pemirakm from "../../assets/portfolio/pemirakm.png";
 
 export const data = [
   {
-    id: 1,
-    image: IMG1,
+    image: moviehub,
     title: "MovieHub",
     tech: "React",
     role: "Frontend Developer",
-    github: "https://github.com/ceavinr/movie-hub",
+    github: "https://github.com/ceavinrufus/movie-hub",
     demo: "https://movie-hub-website.netlify.app/",
   },
   {
-    id: 2,
-    image: IMG2,
-    title: "NMGBC 2023",
-    tech: "React, MongoDB, Express.js",
+    image: pemirakm,
+    title: "Pemira KM ITB 2022/2023",
+    tech: "React, Tailwind CSS, MongoDB, Express.js",
     role: "Full Stack Developer",
-    github: "https://github.com/ceavinr/nmgbc_ui",
+    github: "https://github.com/Pemira-KM-ITB-2023/frontend",
+    demo: "https://www.pemira-km-itb.com/",
+  },
+  {
+    image: nmgbc,
+    title: "NMGBC 2023",
+    tech: "React, Tailwind CSS, MongoDB, Express.js",
+    role: "Full Stack Developer",
+    github: "https://github.com/ceavinrufus/nmgbc_ui",
     demo: "https://nmgbc2023.vercel.app/",
   },
   {
-    id: 3,
-    image: IMG3,
-    title: "StudyMate",
-    tech: "React, MongoDB, Express.js",
+    image: sambat,
+    title: "Sambat Futsal",
+    tech: "Next.js, Tailwind CSS, Supabase",
     role: "Full Stack Developer",
-    github: "https://github.com/ceavinr/Milestone02_K05",
-    demo: "https://studymate.vercel.app/",
+    github: "https://github.com/ceavinrufus/sambat-futsal",
+    demo: "https://sambat-futsal.vercel.app/",
   },
   {
-    id: 4,
-    image: IMG4,
-    title: "Colettes",
-    tech: "React",
-    role: "Frontend Developer",
-    github: "https://github.com/ceavinr/colettes",
-    demo: "https://colettes.netlify.app/",
-  },
-  {
-    id: 5,
-    image: IMG5,
+    image: pokestop,
     title: "PokéStop",
-    tech: "Next.js",
+    tech: "Next.js, Tailwind CSS",
     role: "Frontend Developer",
-    github: "https://github.com/ceavinr/pokestop",
+    github: "https://github.com/ceavinrufus/pokestop",
     demo: "https://pokestop.vercel.app/",
   },
   {
-    id: 6,
-    image: IMG6,
-    title: "Simple To-do-list",
-    tech: "Vanilla Javascript",
+    image: colletes,
+    title: "Colettes",
+    tech: "React",
     role: "Frontend Developer",
-    github: "https://github.com/ceavinr/to-do-list",
-    demo: "https://ceavinr.github.io/to-do-list/",
+    github: "https://github.com/ceavinrufus/colettes",
+    demo: "https://colettes.netlify.app/",
   },
   {
-    id: 7,
-    image: IMG7,
+    image: tecfest2023,
+    title: "TEC Festival 2023",
+    tech: "React, Tailwind CSS",
+    role: "Frontend Developer",
+    github: "https://github.com/TEC-Festival-2023/frontend",
+    demo: "https://www.tec-festival.com/",
+  },
+  {
+    image: portfolio,
     title: "My Portfolio Website",
     tech: "React",
     role: "Frontend Developer",
-    github: "https://github.com/ceavinr/portofolio",
-    demo: "https://ceavinr.netlify.app/",
+    github: "https://github.com/ceavinrufus/portofolio",
+    demo: "https://ceavinrufus.netlify.app/",
+  },
+  {
+    image: studymate,
+    title: "StudyMate",
+    tech: "React, MongoDB, Express.js",
+    role: "Full Stack Developer",
+    // github: "https://github.com/ceavinrufus/Milestone02_K05",
+    demo: "https://studymate.vercel.app/",
+  },
+  {
+    image: todo,
+    title: "Simple To-do-list",
+    tech: "Vanilla Javascript",
+    role: "Frontend Developer",
+    github: "https://github.com/ceavinrufus/to-do-list",
+    // demo: "https://ceavinrufus.github.io/to-do-list/",
   },
 ];
