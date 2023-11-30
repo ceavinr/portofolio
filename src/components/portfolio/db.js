@@ -71,7 +71,7 @@ export const data = [
     title: "My Portfolio Website",
     tech: "React",
     role: "Frontend Developer",
-    github: "https://github.com/ceavinrufus/portofolio",
+    github: "https://github.com/ceavinrufus/portfolio",
     demo: "https://ceavinrufus.netlify.app/",
   },
   {
