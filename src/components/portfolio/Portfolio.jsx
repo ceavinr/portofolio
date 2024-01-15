@@ -9,7 +9,7 @@ import { data } from "./db";
 const Portfolio = ({ slice = data.length }) => {
   return (
     <section id="portfolio" data-aos="fade-up">
-      <h5>My recent projects</h5>
+      <h5>My projects</h5>
       <h2>Portfolio</h2>
 
       <div className="container ">

@@ -8,6 +8,7 @@ import portfolio from "../../assets/portfolio/portfolio.png";
 import studymate from "../../assets/portfolio/studymate.png";
 import tecfest2023 from "../../assets/portfolio/tecfest2023.png";
 import pemirakm from "../../assets/portfolio/pemirakm.png";
+import ieee from "../../assets/portfolio/ieee.png";
 
 export const data = [
   {
@@ -51,12 +52,12 @@ export const data = [
     demo: "https://pokestop.vercel.app/",
   },
   {
-    image: colletes,
-    title: "Colettes",
-    tech: "React",
+    image: ieee,
+    title: "IEEE ITB Student Branch",
+    tech: "Next.js, Tailwind CSS, Dato CMS",
     role: "Frontend Developer",
-    github: "https://github.com/ceavinrufus/colettes",
-    demo: "https://colettes.netlify.app/",
+    github: "https://github.com/IEEE-ITB-SB-2023-2024/IEEE-ITB-SB-2023-2024",
+    demo: "https://www.ieeeitb.com/",
   },
   {
     image: tecfest2023,
@@ -81,6 +82,14 @@ export const data = [
     role: "Full Stack Developer",
     // github: "https://github.com/ceavinrufus/Milestone02_K05",
     demo: "https://studymate.vercel.app/",
+  },
+  {
+    image: colletes,
+    title: "Colettes",
+    tech: "React",
+    role: "Frontend Developer",
+    github: "https://github.com/ceavinrufus/colettes",
+    demo: "https://colettes.netlify.app/",
   },
   {
     image: todo,
