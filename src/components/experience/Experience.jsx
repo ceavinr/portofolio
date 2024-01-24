@@ -35,6 +35,13 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
+                <h4>Angular</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
                 <h4>Next.js</h4>
                 <small className="text-light">Advanced</small>
               </div>
