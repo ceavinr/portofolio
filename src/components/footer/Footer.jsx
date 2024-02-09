@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoTwitter } from "react-icons/io";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
+import { FaMedium } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -37,12 +38,9 @@ const Footer = () => {
         <a href="https://twitter.com/ceavinrufus/" target="blank">
           <IoLogoTwitter />
         </a>
-        {/* <a
-          href="https://open.spotify.com/user/lt4ao0q432yil746hh8jq8rjj?si=7edf5741a5f64e7e"
-          target="blank"
-        >
-          <BsSpotify />
-        </a> */}
+        <a href="https://medium.com/@ceavinrufus" target="blank">
+          <FaMedium />
+        </a>
       </div>
     </footer>
   );

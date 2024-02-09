@@ -59,6 +59,16 @@ function Navbar() {
                 Portfolio
               </a>
             </li>
+            <li className="nav-item">
+              <a
+                href="https://medium.com/@ceavinrufus"
+                className="nav-links"
+                onClick={closeMobileMenu}
+                target="blank"
+              >
+                Blog
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
