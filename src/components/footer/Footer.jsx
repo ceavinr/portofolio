@@ -2,7 +2,6 @@ import React from "react";
 import "./footer.css";
 import Contact from "./Contact";
 import { BsLinkedin } from "react-icons/bs";
-import { BsSpotify } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoTwitter } from "react-icons/io";
