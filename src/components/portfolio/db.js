@@ -9,6 +9,7 @@ import studymate from "../../assets/portfolio/studymate.png";
 import tecfest2023 from "../../assets/portfolio/tecfest2023.png";
 import pemirakm from "../../assets/portfolio/pemirakm.png";
 import ieee from "../../assets/portfolio/ieee.png";
+import crypther from "../../assets/portfolio/crypther.jpg";
 
 export const data = [
   {
@@ -36,6 +37,14 @@ export const data = [
     demo: "https://nmgbc2023.vercel.app/",
   },
   {
+    image: ieee,
+    title: "IEEE ITB Student Branch",
+    tech: "Next.js, Tailwind CSS, Dato CMS",
+    role: "Frontend Developer",
+    github: "https://github.com/IEEE-ITB-SB-2023-2024/IEEE-ITB-SB-2023-2024",
+    demo: "https://www.ieeeitb.com/",
+  },
+  {
     image: sambat,
     title: "Sambat Futsal",
     tech: "Next.js, Tailwind CSS, Supabase",
@@ -44,20 +53,20 @@ export const data = [
     demo: "https://sambat-futsal.vercel.app/",
   },
   {
+    image: crypther,
+    title: "Crypther: Classic Cipher Website",
+    tech: "React, Tailwind CSS",
+    role: "Frontend Developer",
+    github: "https://github.com/ceavinrufus/tucil1-kripto",
+    demo: "https://crypther.vercel.app/",
+  },
+  {
     image: pokestop,
     title: "PokéStop",
     tech: "Next.js, Tailwind CSS",
     role: "Frontend Developer",
     github: "https://github.com/ceavinrufus/pokestop",
     demo: "https://pokestop.vercel.app/",
-  },
-  {
-    image: ieee,
-    title: "IEEE ITB Student Branch",
-    tech: "Next.js, Tailwind CSS, Dato CMS",
-    role: "Frontend Developer",
-    github: "https://github.com/IEEE-ITB-SB-2023-2024/IEEE-ITB-SB-2023-2024",
-    demo: "https://www.ieeeitb.com/",
   },
   {
     image: tecfest2023,
@@ -82,14 +91,6 @@ export const data = [
     role: "Full Stack Developer",
     // github: "https://github.com/ceavinrufus/Milestone02_K05",
     demo: "https://studymate.vercel.app/",
-  },
-  {
-    image: colletes,
-    title: "Colettes",
-    tech: "React",
-    role: "Frontend Developer",
-    github: "https://github.com/ceavinrufus/colettes",
-    demo: "https://colettes.netlify.app/",
   },
   {
     image: todo,
