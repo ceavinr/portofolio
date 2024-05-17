@@ -5,7 +5,7 @@ import colletes from "../../assets/portfolio/colletes.png";
 import pokestop from "../../assets/portfolio/pokestop.png";
 import todo from "../../assets/portfolio/todo.png";
 import portfolio from "../../assets/portfolio/portfolio.png";
-import studymate from "../../assets/portfolio/studymate.png";
+import chatrsa from "../../assets/portfolio/chatrsa.png";
 import tecfest2023 from "../../assets/portfolio/tecfest2023.png";
 import pemirakm from "../../assets/portfolio/pemirakm.png";
 import ieee from "../../assets/portfolio/ieee.png";
@@ -19,14 +19,6 @@ export const data = [
     role: "Frontend Developer",
     github: "https://github.com/ceavinrufus/movie-hub",
     demo: "https://movie-hub-website.netlify.app/",
-  },
-  {
-    image: pemirakm,
-    title: "Pemira KM ITB 2022/2023",
-    tech: "React, Tailwind CSS, MongoDB, Express.js",
-    role: "Full Stack Developer",
-    github: "https://github.com/Pemira-KM-ITB-2023/frontend",
-    demo: "https://www.pemira-km-itb.com/",
   },
   {
     image: nmgbc,
@@ -53,12 +45,28 @@ export const data = [
     demo: "https://sambat-futsal.vercel.app/",
   },
   {
+    image: chatrsa,
+    title: "ChatRSA",
+    tech: "React, MongoDB, Express.js, Socket.io",
+    role: "Full Stack Developer",
+    github: "https://github.com/ceavinrufus/tucil3-kripto",
+    demo: "https://chatrsa.vercel.app/",
+  },
+  {
     image: crypther,
     title: "Crypther: Classic Cipher Website",
     tech: "React, Tailwind CSS",
     role: "Frontend Developer",
     github: "https://github.com/ceavinrufus/tucil1-kripto",
     demo: "https://crypther.vercel.app/",
+  },
+  {
+    image: pemirakm,
+    title: "Pemira KM ITB 2022/2023",
+    tech: "React, Tailwind CSS, MongoDB, Express.js",
+    role: "Full Stack Developer",
+    github: "https://github.com/Pemira-KM-ITB-2023/frontend",
+    demo: "https://www.pemira-km-itb.com/",
   },
   {
     image: pokestop,
@@ -83,14 +91,6 @@ export const data = [
     role: "Frontend Developer",
     github: "https://github.com/ceavinrufus/portfolio",
     demo: "https://ceavinrufus.netlify.app/",
-  },
-  {
-    image: studymate,
-    title: "StudyMate",
-    tech: "React, MongoDB, Express.js",
-    role: "Full Stack Developer",
-    // github: "https://github.com/ceavinrufus/Milestone02_K05",
-    demo: "https://studymate.vercel.app/",
   },
   {
     image: todo,
