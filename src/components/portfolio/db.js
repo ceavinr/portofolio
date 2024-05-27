@@ -10,24 +10,10 @@ import tecfest2023 from "../../assets/portfolio/tecfest2023.png";
 import pemirakm from "../../assets/portfolio/pemirakm.png";
 import ieee from "../../assets/portfolio/ieee.png";
 import crypther from "../../assets/portfolio/crypther.jpg";
+import transcrypt from "../../assets/portfolio/transcrypt.png";
+import zoro from "../../assets/portfolio/zoro.png";
 
 export const data = [
-  {
-    image: moviehub,
-    title: "MovieHub",
-    tech: "React",
-    role: "Frontend Developer",
-    github: "https://github.com/ceavinrufus/movie-hub",
-    demo: "https://movie-hub-website.netlify.app/",
-  },
-  {
-    image: nmgbc,
-    title: "NMGBC 2023",
-    tech: "React, Tailwind CSS, MongoDB, Express.js",
-    role: "Full Stack Developer",
-    github: "https://github.com/ceavinrufus/nmgbc_ui",
-    demo: "https://nmgbc2023.vercel.app/",
-  },
   {
     image: ieee,
     title: "IEEE ITB Student Branch",
@@ -35,6 +21,14 @@ export const data = [
     role: "Frontend Developer",
     github: "https://github.com/IEEE-ITB-SB-2023-2024/IEEE-ITB-SB-2023-2024",
     demo: "https://www.ieeeitb.com/",
+  },
+  {
+    image: transcrypt,
+    title: "TransCrypt: Secure Academic Records Management",
+    tech: "React, MySQL, Express.js",
+    role: "Full Stack Developer",
+    github: "https://github.com/ceavinrufus/tucil4-kripto",
+    // demo: "https://chatrsa.vercel.app/",
   },
   {
     image: sambat,
@@ -46,11 +40,35 @@ export const data = [
   },
   {
     image: chatrsa,
-    title: "ChatRSA",
+    title: "ChatRSA: RSA-Encrypted Chat Platform",
     tech: "React, MongoDB, Express.js, Socket.io",
     role: "Full Stack Developer",
     github: "https://github.com/ceavinrufus/tucil3-kripto",
     demo: "https://chatrsa.vercel.app/",
+  },
+  {
+    image: moviehub,
+    title: "MovieHub",
+    tech: "React",
+    role: "Frontend Developer",
+    github: "https://github.com/ceavinrufus/movie-hub",
+    demo: "https://movie-hub-website.netlify.app/",
+  },
+  {
+    image: zoro,
+    title: "ZORO: Simple E-Commerce Web",
+    tech: "React, Fast API",
+    role: "Full Stack Developer",
+    github: "https://github.com/ceavinrufus/smart-commerce-lasti",
+    demo: "https://zoro-commerce.vercel.app/",
+  },
+  {
+    image: nmgbc,
+    title: "NMGBC 2023",
+    tech: "React, Tailwind CSS, MongoDB, Express.js",
+    role: "Full Stack Developer",
+    github: "https://github.com/ceavinrufus/nmgbc_ui",
+    demo: "https://nmgbc2023.vercel.app/",
   },
   {
     image: crypther,
